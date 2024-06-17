@@ -16,7 +16,8 @@ template = """|
 """
 
 no_columns = template.count('|')
-table_header = "|   " * no_columns + "|\n" + "|---" * no_columns + "|\n"
+col_width = '_______________'
+table_header = ("| " + col_width + " ") * no_columns + "|\n" + "|---" * no_columns + "|\n"
 
 res = table_header
 
