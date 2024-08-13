@@ -1,4 +1,5 @@
 ---
+- insightsengineering/nestcolor
 - insightsengineering/formatters
 - insightsengineering/rtables
 - insightsengineering/rlistings
@@ -13,8 +14,6 @@
 - insightsengineering/cards
 - insightsengineering/cardx
 - insightsengineering/random.cdisc.data
-- insightsengineering/scda
-- insightsengineering/scda.2022
 - insightsengineering/teal.logger
 - insightsengineering/teal.widgets
 - insightsengineering/teal.code
