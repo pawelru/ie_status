@@ -33,9 +33,7 @@ template = """|
 |
   [![]({shield_badge}{repo_name}&query=_binaries%5B8%5D%5Bstatus%2Ccheck%5D&logo=windows&logoColor=white&label=R{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
   [![]({shield_badge}{repo_name}&query=_binaries%5B7%5D%5Bstatus%2Ccheck%5D&logo=windows&logoColor=white&label=R{r_oldrel})](https://pharmaverse.r-universe.dev/{repo_name}/)
-
-|
-  [![]({shield_badge}{repo_name}&query=_binaries%5B6%5D%5Bstatus%2Ccheck%5D&logo=windows&logoColor=white&label=R{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  [![]({shield_badge}{repo_name}&query=_binaries%5B6%5D%5Bstatus%2Ccheck%5D&logo=windows&logoColor=white&label=R{r_devel})](https://pharmaverse.r-universe.dev/{repo_name}/)
 
 |
   [![]({shield_badge}{repo_name}&query=_binaries%5B5%5D%5Bstatus%2Ccheck%5D&logo=webassembly&logoColor=white&label=R{r_wasm})](https://pharmaverse.r-universe.dev/{repo_name}/)
