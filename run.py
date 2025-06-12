@@ -37,7 +37,6 @@ template = """|
 
 |
   [![]({shield_badge}{repo_name}&query=_binaries%5B5%5D%5Bstatus%2Ccheck%5D&logo=webassembly&logoColor=white&label=R{r_wasm})](https://pharmaverse.r-universe.dev/{repo_name}/)
-  [![]({shield_badge}{repo_name}&query=_binaries%5B4%5D%5Bstatus%2Ccheck%5D&logo=webassembly&logoColor=white&label=R{r_wasm})](https://pharmaverse.r-universe.dev/{repo_name}/)
 """
 
 
