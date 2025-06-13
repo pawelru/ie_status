@@ -48,7 +48,7 @@ template = """|
 
 no_columns = template.count('|')
 columns = ["Repository", "Main check", "Main docs", "Main scheduled", "Main coverage", "Pharmaverse checks", "Linux binaries", "Mac binaries", "Windows binaries", "WebAssembly binaries"]
-table_header = "| " + " | ".join(columns) + " |\n" + "|:---:" * no_columns + "|\n"
+table_header = "| " + " | ".join(columns) + " |\n" + "|---" * no_columns + "|\n"
 
 res = table_header
 
