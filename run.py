@@ -10,7 +10,7 @@ r_oldrel = "4.4"
 r_wasm = "4.2.0"
 
 template = """|
-[`{repo_name}` ](https://github.com/{repo}/)
+[`{repo_name}`](https://github.com/{repo}/)
 | [![](https://github.com/{repo}/actions/workflows/check.yaml/badge.svg?branch=main)](https://github.com/{repo}/actions/workflows/check.yaml?query=branch%3Amain)
 | [![](https://github.com/{repo}/actions/workflows/docs.yaml/badge.svg?branch=main)](https://github.com/{repo}/actions/workflows/docs.yaml?query=branch%3Amain)
 | [![](https://github.com/{repo}/actions/workflows/scheduled.yaml/badge.svg?branch=main)](https://github.com/{repo}/actions/workflows/scheduled.yaml?query=branch%3Amain)
@@ -48,7 +48,10 @@ template = """|
 
 no_columns = template.count('|')
 columns = ["Repository", "Main check", "Main docs", "Main scheduled", "Main coverage", "Pharmaverse checks", "Linux binaries", "Mac binaries", "Windows binaries", "WebAssembly binaries"]
-table_header = "| " + " | ".join(columns) + " |\n" + "|---" * no_columns + "|\n"
+max_columns = max(len(col) for col in columns)
+columns_fixed = [col.center(max_columns) for col in columns]
+  
+table_header = "| " + " | ".join(columns_fixed) + " |\n" + "|:---" * no_columns + ":|\n"
 
 res = table_header
 
