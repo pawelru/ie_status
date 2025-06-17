@@ -49,9 +49,9 @@ template = """|
 no_columns = template.count('|')
 columns = ["Repository", "Main check", "Main docs", "Main scheduled", "Main coverage", "Pharmaverse checks", "Linux binaries", "Mac binaries", "Windows binaries", "WebAssembly binaries"]
 max_columns = max(len(col) for col in columns)
-columns_fixed = [col.center(max_columns) for col in columns]
+columns_fixed = [col.center(max_columns*2, ".") for col in columns]
   
-table_header = "| " + " | ".join(columns_fixed) + " |\n" + "|:---" * no_columns + ":|\n"
+table_header = "| " + " | ".join(columns_fixed) + " |\n" + "|:---:" * no_columns + "|\n"
 
 res = table_header
 
