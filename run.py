@@ -48,9 +48,9 @@ template = """|
 
 no_columns = template.count('|')
 columns = ["Repository", "Main check", "Main docs", "Main scheduled", "Main coverage", "Pharmaverse checks", "Linux binaries", "Mac binaries", "Windows binaries", "WebAssembly binaries"]
-max_columns = max(len(col) for col in columns)
-columns_fixed = [col.center(max_columns*2, ".") for col in columns]
-  
+max_column_length = max(len(col) for col in columns)
+columns_fixed = [col + "<br>" + "_" * max_column_length for col in columns] # this is to keep the column width fixed in the markdown table
+
 table_header = "| " + " | ".join(columns_fixed) + " |\n" + "|:---:" * no_columns + "|\n"
 
 res = table_header
