@@ -17,28 +17,42 @@ template = """|
 | [![](https://raw.githubusercontent.com/{repo}/_xml_coverage_reports/data/main/badge.svg)](https://github.com/{repo})
 |
   [![]({shield_badge}{repo_name}&query=_jobs%5B0%5D.check&logo=linux&logoColor=white&label=R%2C{r_devel})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_jobs%5B1%5D.check&logo=linux&logoColor=white&label=R%2C{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_jobs%5B2%5D.check&logo=apple&logoColor=white&label=R%2C{r_oldrel})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_jobs%5B3%5D.check&logo=apple&logoColor=white&label=R%2C{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_jobs%5B4%5D.check&logo=R&logoColor=white&label=R%2C{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_jobs%5B5%5D.check&logo=webassembly&logoColor=white&label=R%2C{r_oldrel})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_jobs%5B5%5D.check&logo=webassembly&logoColor=white&label=R%2C{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_jobs%5B6%5D.check&logo=windows&logoColor=white&label=R%2C{r_devel})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_jobs%5B7%5D.check&logo=windows&logoColor=white&label=R%2C{r_oldrel})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_jobs%5B8%5D.check&logo=windows&logoColor=white&label=R%2C{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
 
 |
   [![]({shield_badge}{repo_name}&query=_binaries%5B0%5D%5Bstatus%2Ccheck%5D&logo=linux&logoColor=white&label=R{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_binaries%5B4%5D%5Bstatus%2Ccheck%5D&logo=linux&logoColor=white&label=R{r_devel})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_binaries%5B5%5D%5Bstatus%2Ccheck%5D&logo=linux&logoColor=white&label=R{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
 
 |
   [![]({shield_badge}{repo_name}&query=_binaries%5B1%5D%5Bstatus%2Ccheck%5D&logo=apple&logoColor=white&label=R{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_binaries%5B3%5D%5Bstatus%2Ccheck%5D&logo=apple&logoColor=white&label=R{r_oldrel})](https://pharmaverse.r-universe.dev/{repo_name}/)
 
 |
   [![]({shield_badge}{repo_name}&query=_binaries%5B8%5D%5Bstatus%2Ccheck%5D&logo=windows&logoColor=white&label=R{r_oldrel})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_binaries%5B7%5D%5Bstatus%2Ccheck%5D&logo=windows&logoColor=white&label=R{r_release})](https://pharmaverse.r-universe.dev/{repo_name}/)
+  <br>
   [![]({shield_badge}{repo_name}&query=_binaries%5B6%5D%5Bstatus%2Ccheck%5D&logo=windows&logoColor=white&label=R{r_devel})](https://pharmaverse.r-universe.dev/{repo_name}/)
 
 |
